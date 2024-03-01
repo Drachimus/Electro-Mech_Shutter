@@ -11,7 +11,8 @@ One limitation is my design is that the control is designed to operate with a MO
   
 But assembly of the core system can also be accomplished by following the wiring diagram included in the code folder.
 
-! [wiring diagram of project] (Code/Wiring diagram.png)
+![Wiring diagram](https://github.com/Drachimus/Electro-Mech_Shutter/assets/136056199/be9e471f-25f2-4fde-a4b2-98fd325e6dce)
+
 
 
 
