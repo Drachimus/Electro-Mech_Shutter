@@ -7,7 +7,7 @@ One limitation is my design is that the control is designed to operate with a MO
 ## Wiring and construction:
   
   This will be covered in detail in a Youtube video found here;
-  (link to be added)
+  ![Youtube Link](https://youtu.be/-WX2WRZfZw8)
   
 But assembly of the core system can also be accomplished by following the wiring diagram included in the code folder.
 
