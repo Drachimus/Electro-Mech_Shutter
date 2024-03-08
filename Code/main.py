@@ -198,13 +198,13 @@ while True:
     if val_old != val_new: # acumulating rotary encoder steps
         
         val_old = val_new
-        print('result =', val_new)  # Debug on shell terminal
+        print('result =', val_new)
         update_display = 1
         
-    if SW.value()==0 and n==0:  # firing shutter when trigger button pressed (center button on encoder used here)
+    if SW.value()==0 and n==0:  # firing shutter when trigger button pressed center button on encoder used
         
         shut_fire(val_new)
-        print("Button Pressed")  # Debug on shell terminal
+        print("Button Pressed")  
         n=1
         while SW.value()==0:  
            continue
@@ -220,4 +220,4 @@ while True:
         oled.text(shut_txt_val, 8, 12)
         oled.show()
 
-    time.sleep_ms(5)  # Debounce delay
+    time.sleep_ms(5)
