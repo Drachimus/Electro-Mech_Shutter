@@ -51,6 +51,9 @@ def shut_fire(shut_delay):
         ind_led.value(0)
         oled.text("Shutter Fired", 0, 24)
         oled.show()
+        time.sleep(0.5)
+        oled.init_display()
+        update_display = 1
 
 
 
@@ -198,13 +201,13 @@ while True:
     if val_old != val_new: # acumulating rotary encoder steps
         
         val_old = val_new
-        print('result =', val_new)
+        print('result =', val_new) #debug to terminal
         update_display = 1
         
     if SW.value()==0 and n==0:  # firing shutter when trigger button pressed center button on encoder used
         
         shut_fire(val_new)
-        print("Button Pressed")  
+        print("Button Pressed")  #debug to terminal
         n=1
         while SW.value()==0:  
            continue
