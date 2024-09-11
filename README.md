@@ -23,3 +23,4 @@ But assembly of the core system can also be accomplished by following the wiring
   - reboot the pico by cycling power and you should be good to go.
 
 
+
